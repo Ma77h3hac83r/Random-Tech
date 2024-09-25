@@ -1,0 +1,11 @@
+describe('Home Page', () => {
+  it('displays the title', () => {
+    cy.visit('/');
+    cy.contains('My SvelteKit Firebase App').should('be.visible');
+  });
+
+  it('displays items from Firestore', () => {
+    cy.visit('/');
+    cy.get('ul li').should('have.length.gt', 0);
+  });
+});
