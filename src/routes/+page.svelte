@@ -12,10 +12,6 @@
 </script>
 
 <main class="container mx-auto p-4">
-  <h1 class="text-3xl font-bold mb-4">My SvelteKit Firebase App</h1>
-  <ul class="list-disc pl-5">
-    {#each items as item}
-      <li class="mb-2">{item}</li>
-    {/each}
-  </ul>
+  <h1 class="text-3xl font-bold mb-4">Welcome to My App</h1>
+  <p class="mb-4">This is the home page content. You can add more sections or components here.</p>
 </main>

@@ -7,5 +7,7 @@ export default {
 		extend: {}
 	},
 
-	plugins: []
+	plugins: [],
+
+	darkMode: 'class' // This enables dark mode based on a class
 } as Config;
